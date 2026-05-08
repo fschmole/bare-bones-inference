@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Rust build
+compute/target/
+
+# Model weights (523MB — download separately)
+models/gpt2/model.safetensors
+models/gpt2/tokenizer.json
+
+# Trace logs
+*.log
